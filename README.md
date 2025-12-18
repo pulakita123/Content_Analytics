@@ -1,4 +1,6 @@
 # Content_Analytics
+<img width="1169" height="655" alt="Screenshot 2025-12-18 090210" src="https://github.com/user-attachments/assets/ce5b83c3-a38e-40ed-ba55-b001adb03c8c" />
+
 
 # Overview
 This project analyzes how a digital content library has evolved over time using an interactive analytics dashboard. The goal is to provide clear visibility into long-term trends in content growth, format distribution, and geographic contribution, enabling stakeholders to move from assumption-based decisions to evidence-based insights.

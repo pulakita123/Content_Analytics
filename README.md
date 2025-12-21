@@ -1,5 +1,6 @@
 # Content_Analytics
-<img width="1169" height="655" alt="Screenshot 2025-12-18 090210" src="https://github.com/user-attachments/assets/ce5b83c3-a38e-40ed-ba55-b001adb03c8c" />
+<img width="578" height="326" alt="image" src="https://github.com/user-attachments/assets/5fd04792-ac51-4036-9a85-17776b21bd80" />
+
 
 
 # Overview

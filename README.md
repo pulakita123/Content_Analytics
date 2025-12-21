@@ -19,6 +19,12 @@ Is there a visible shift in content format across time?
 Which countries and genres contribute most to new content?
 How do content trends change when filtered by time or geography?
 
+# Key Insights
+Content additions increased steadily in later years
+Series content grew faster compared to movies over time
+Content sourcing became more geographically diverse
+Insights are based purely on observed data trends, without external assumptions or causal claims.
+
 # KPIs Defined
 Total titles added
 Year-wise content growth
@@ -39,11 +45,16 @@ Table for detailed record-level analysis
 Slicers for year, content type, country, and genre
 All visuals respond dynamically to user selections, allowing flexible analysis without additional reports.
 
-# Key Insights
-Content additions increased steadily in later years
-Series content grew faster compared to movies over time
-Content sourcing became more geographically diverse
-Insights are based purely on observed data trends, without external assumptions or causal claims.
+# Data Modeling Approach
+
+The data model is centered around a Content Master table, supported by dimension and bridge tables to handle multi-valued attributes.
+Core Table:
+Content: Contains one record per title with attributes such as type, rating, release year, and date added.
+Supporting Tables:
+Country and Content_Country (bridge table)
+Genre and Content_Genre (bridge table)
+Date (derived from date added)
+This structure enables scalable analysis and avoids issues caused by comma-separated values.
 
 # Assumptions & Constraints
 Analysis is based on content addition dates, not performance or engagement metrics
